@@ -11,7 +11,7 @@
 }
 
 @layer components {
-  //.sidebarIcon {
+  .sidebarIcon {
     @apply h-6 text-[#808080] cursor-pointer;
   }
 
