@@ -76,7 +76,7 @@ function Body({ chooseTrack, spotifyApi }) {
                 />
               ))
           : searchResults
-              //.slice(0, 4)
+              .slice(0, 4)
               .map((track) => (
                 <Poster
                   key={track.id}
