@@ -84,7 +84,7 @@ function Body({ chooseTrack, spotifyApi }) {
                   chooseTrack={chooseTrack}
                 />
               ))}
-      </div>
+      //</div>
 
       <div className="flex gap-x-8 absolute min-w-full md:relative ml-6">
         {/* Genres */}
