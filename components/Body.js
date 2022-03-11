@@ -86,7 +86,7 @@ function Body({ chooseTrack, spotifyApi }) {
               ))}
       </div>
 
-      //<div className="flex gap-x-8 absolute min-w-full md:relative ml-6">
+      <div className="flex gap-x-8 absolute min-w-full md:relative ml-6">
         {/* Genres */}
         <div className="hidden xl:inline max-w-[270px]">
           <h2 className="text-white font-bold mb-3">Genres</h2>
