@@ -81,7 +81,7 @@ function Player({ accessToken, trackUri }) {
       </div> */}
 
       {/* Premium Users */}
-      <SpotifyPlayer
+      {/*<SpotifyPlayer
         styles={{
           activeColor: "#fff",
           bgColor: "#181818",
@@ -105,7 +105,7 @@ function Player({ accessToken, trackUri }) {
         uris={trackUri ? [trackUri] : []}
         magnifySliderOnHover={true}
         autoPlay={true}
-      />
+      />*/}
     </>
   );
 }
